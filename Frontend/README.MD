@@ -1,0 +1,1 @@
+Frontend para la capa visual del proyecto utilizando react y tailwind

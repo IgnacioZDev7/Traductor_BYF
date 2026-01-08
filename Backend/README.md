@@ -1,0 +1,1 @@
+Backend para la lógica de la traduccion usando ollama, llama3.2, RAG y EMBEDDINGS
