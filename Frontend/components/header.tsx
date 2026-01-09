@@ -32,7 +32,7 @@ export default function Header() {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-cyan-500 rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">ML</span>
             </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-foreground">Traductor Médico Andino</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-foreground">Traductor BYF</h1>
           </div>
           <button
             onClick={toggleTheme}

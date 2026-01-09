@@ -110,7 +110,7 @@ export default function Home() {
                       : "bg-muted text-foreground hover:bg-border"
                   }`}
                 >
-                  ES → Indígena
+                  ES → Nativo
                 </button>
                 <button
                   onClick={() => setDirection("indigenous-to-es")}
@@ -120,14 +120,14 @@ export default function Home() {
                       : "bg-muted text-foreground hover:bg-border"
                   }`}
                 >
-                  Indígena → ES
+                  Nativo → ES
                 </button>
               </div>
             </div>
 
             {/* Language Selection */}
             <div>
-              <label className="block text-sm font-medium text-foreground mb-3">Idioma indígena</label>
+              <label className="block text-sm font-medium text-foreground mb-3">Idioma Nativo</label>
               <select
                 value={language}
                 onChange={(e) => setLanguage(e.target.value as IndigenousLanguage)}
