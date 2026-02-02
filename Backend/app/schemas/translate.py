@@ -14,5 +14,3 @@ class TranslationResponse(BaseModel):
     target_lang: str
     found_id: Optional[str] = None
     context_used: bool = False
-
-    
